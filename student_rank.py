@@ -18,9 +18,9 @@ class School:
         number_of_students = int(input("Enter the number of students: "))
         for _ in range(number_of_students):
             name = input("Enter student's name: ")
-            m1 = float(input("Enter m1: "))
-            m2 = float(input("Enter m2: "))
-            m3 = float(input("Enter m3: "))
+            m1 = int(input("Enter m1: "))
+            m2 = int(input("Enter m2: "))
+            m3 = int(input("Enter m3: "))
             self.add_student(name, m1, m2, m3)
 
     def sort_students_by_avg(self):
